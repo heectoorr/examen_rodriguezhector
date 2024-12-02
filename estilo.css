@@ -1,0 +1,209 @@
+body { 
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    box-sizing: border-box;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+header #logo {
+    display: flex;
+    align-items: center;
+}
+
+#logo img{
+    height: 30px;
+    padding-right: 5px;
+}
+
+header #logo h3 {
+    margin: 0 10px 0 0;
+}
+
+header nav {
+    display: flex;
+    gap: 20px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+header nav a:hover {
+    color: #285e67;
+}
+
+.primeraseccion {
+    text-align: center;
+    background: #f9f9f9;
+    padding: 50px 20px;
+}
+
+.primeraseccion h1 {
+    font-size: xx-large;
+    margin-bottom: 20px;
+}
+
+.primeraseccion p {
+    margin-bottom: 20px;
+    color: #555;
+    
+}
+
+.primeraseccion button {
+    padding: 10px 30px;
+    background: #285e67;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: small;
+    font-size: medium;
+}
+
+.primeraseccion button:hover {
+    background: #1f4a51;
+}
+
+.fotosprimeraseccion {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 30px 0;
+}
+
+.fotosprimeraseccion img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+
+.segundaseccion {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+}
+
+.segundaseccion h2 {
+    font-size: xx-large;
+    margin-bottom: 30px;
+}
+
+.carac2 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.carac2 img {
+    display: flex;
+}
+
+
+.carac2 img {
+    max-width: 80px;
+    margin-bottom: 10px;
+}
+
+.carac2 p {
+    margin: 10px;
+    color: #555;
+}
+
+
+.terceraseccion {
+    text-align: center;
+    padding: 50px 20px;
+    background: #f9f9f9;
+}
+
+.terceraseccion h2 {
+    font-size: xx-large;
+    margin-bottom: 30px;
+}
+
+.terceraseccion ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.terceraseccion ul div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.terceraseccion ul div img {
+    width: 40px;
+    margin-right: 15px;
+}
+
+.terceraseccion img {
+    max-width: 400px;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.footer {
+    background: #285e67;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.footer .logofooter img {
+    max-width: 100px;
+    margin: 10px 0;
+}
+
+.footer nav {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.footer nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer nav a:hover {
+    text-decoration: underline;
+}
+
+.navfooter{
+    text-align: right;
+}
+
+.parte1footer{
+    text-align: left;
+}
+
